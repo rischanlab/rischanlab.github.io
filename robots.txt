@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://rischanlab.github.io/sitemap.xml
