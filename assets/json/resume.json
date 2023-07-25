@@ -1,70 +1,103 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Rischan Mafrur",
+    "label": "Data Scientist",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "r.mafrur@uq.net.au",
+    "phone": "-",
+    "url": "rischanlab.github.io",
+    "summary": "Data Scientist | Kaggle Competitions Expert | Blockchain Consultant | Crypto and NFTs Practitioner",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "GP South 78",
+      "postalCode": "4067",
+      "city": "St Lucia",
+      "countryCode": "Australia",
+      "region": "Queensland"
     },
     "profiles": [
       {
         "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "username": "0xGembus",
+        "url": "https://twitter.com/0xGembus"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "name": "Crypto Data Warehouse Australia",
+      "position": "VIP in Data",
+      "url": "https://www.cryptodatawarehouse.org/",
+      "startDate": "2023",
+      "endDate": "-",
+      "summary": "Working with a bunch of data",
       "highlights": [
-        "Relativity"
+        "Data Warehousing"
+      ]
+    },
+    {
+      "name": "Kartoza Pty Ltd",
+      "position": "Software engineer",
+      "url": "https://www.kartoza.com/",
+      "startDate": "2015",
+      "endDate": "2017",
+      "summary": "Working with back-end",
+      "highlights": [
+        "Python back-end"
       ]
     }
   ],
   "volunteer": [],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "The University of Queensland, Australia",
+      "url": "https://www.uq.edu.au/",
+      "area": "Data Science",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
+      "startDate": "2018",
+      "endDate": "-",
       "score": "",
       "courses": [
-        "Theory of Relativity"
+        "Efficient Insight Recommendation for Visual Data Exploration"
+      ]
+    },
+    {
+      "institution": "Chonnam National University, South Korea",
+      "url": "https://international.jnu.ac.kr/IndexMain.aspx",
+      "area": "IoT",
+      "studyType": "Master of Engineering",
+      "startDate": "2013",
+      "endDate": "2015",
+      "score": "",
+      "courses": [
+        "Modeling and discovering human behavior from smartphone sensing life-log data for identification purpose"
+      ]
+    }
+    ,
+    {
+      "institution": "UIN Sunan Kalijaga Yogyakarta, Indonesia",
+      "url": "https://uin-suka.ac.id/",
+      "area": "Information Technology",
+      "studyType": "Bachelor",
+      "startDate": "2009",
+      "endDate": "2013",
+      "score": "",
+      "courses": [
+    
       ]
     }
   ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
+  "awards": [],
   "certificates": [],
   "publications": [],
   "skills": [],
   "languages": [
     {
-      "language": "German",
+      "language": "Javanese",
       "fluency": "Native speaker"
+    },
+    {
+      "language": "Indonesia",
+      "fluency": "Fluent"
     },
     {
       "language": "English",
