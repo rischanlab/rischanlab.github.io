@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Rischan Mafrur",
-    "label": "Data Scientist",
+    "label": "Data Scientist and Researcher",
     "image": "",
     "email": "r.mafrur@uq.net.au",
     "phone": "-",
     "url": "rischanlab.github.io",
-    "summary": "Data Scientist | Kaggle Competitions Expert | Blockchain Consultant | Crypto and NFTs Practitioner",
+    "summary": "Data Scientist | Researcher | Kaggle Competitions Expert | Blockchain Consultant | Crypto and NFTs Practitioner",
     "location": {
       "address": "GP South 78",
       "postalCode": "4067",
@@ -24,25 +24,27 @@
   },
   "work": [
     {
-      "name": "Crypto Data Warehouse Australia",
-      "position": "VIP in Data",
+      "name": "SIRCA Ltd and Crypto Data Warehouse Australia",
+      "position": "Research and Data",
       "url": "https://www.cryptodatawarehouse.org/",
       "startDate": "2023",
       "endDate": "-",
-      "summary": "Working with a bunch of data",
+      "summary": "Working with a bunch of ASX data and building crypto data warehouse",
       "highlights": [
-        "Data Warehousing"
+        "Data Warehousing",
+        "Research and analytics",
+        "Crypto Analytics"
       ]
     },
     {
       "name": "Kartoza Pty Ltd",
-      "position": "Software engineer",
+      "position": "Software and Database engineer",
       "url": "https://www.kartoza.com/",
       "startDate": "2015",
       "endDate": "2017",
       "summary": "Working with back-end",
       "highlights": [
-        "Python back-end"
+        "Python back-end and PostgreSQL"
       ]
     }
   ],
@@ -50,20 +52,20 @@
   "education": [
     {
       "institution": "The University of Queensland, Australia",
-      "url": "https://www.uq.edu.au/",
+      "url": "https://espace.library.uq.edu.au/view/UQ:812c680",
       "area": "Data Science",
-      "studyType": "PhD",
+      "studyType": "Doctor of Philosophy (PhD)",
       "startDate": "2018",
       "endDate": "-",
       "score": "",
       "courses": [
-        "Efficient Insight Recommendation for Visual Data Exploration"
+        "Recommending data visualizations: tackling diversification and data quality challenges"
       ]
     },
     {
       "institution": "Chonnam National University, South Korea",
       "url": "https://international.jnu.ac.kr/IndexMain.aspx",
-      "area": "IoT",
+      "area": "AI and IoT",
       "studyType": "Master of Engineering",
       "startDate": "2013",
       "endDate": "2015",
@@ -77,7 +79,7 @@
       "institution": "UIN Sunan Kalijaga Yogyakarta, Indonesia",
       "url": "https://uin-suka.ac.id/",
       "area": "Information Technology",
-      "studyType": "Bachelor",
+      "studyType": "Bachelor of IT",
       "startDate": "2009",
       "endDate": "2013",
       "score": "",
