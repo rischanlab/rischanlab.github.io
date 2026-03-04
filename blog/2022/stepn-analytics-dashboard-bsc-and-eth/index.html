@@ -1,2 +1,132 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
-
+<html><body>
+<p>This article is part of my challenge when joining <a href="https://medium.com/@Covalent_HQ" rel="external nofollow noopener" target="_blank">Covalent</a> Data Alchemist Bootcamp. In this challenge, I am going to do an analysis of one of the most popular move2earn projects called <a href="https://stepn.com/" rel="external nofollow noopener" target="_blank">STEPN</a>. I also include one of STEPN's competitors which is <a href="https://step.app/" rel="external nofollow noopener" target="_blank">Step app</a>. STEPN has (GMT+GST) tokens and currently supports three networks: SOL+BSC+ETH. Meanwhile, the Step app has (FITFI+KCAL) tokens and currently supports two networks: AVAX, and Step network. Note that KCAL is currently only available on Step Network. In this analysis, I focus on three metrics called RRR (Reach, Retention, and Revenue).</p>
+<p>Two STEPN tokens can be explained as follow:</p>
+<ol>
+<li>GST (game token) can be earned when a user moves and participates in in-game activities. GST has an unlimited supply and is earned when a user moves in Solo or Background Mode.</li>
+<li>GMT (governance token) can be earned when a user moves with a level 30 NFT and participates in-game activities.</li>
+</ol>
+<p><strong>Limitation</strong>: Covalent currently (at the time of writing) only support EVM chains, while non-EVM chain such as Solana has not been supported yet. Hence, in this research, I could only use BSC and Ethereum. Solana network is very important for STEPN, since the native network of STEPN is actually on Solana. The STEPN metrics on Solana can be seen on other dashboard analytics from Flipsidecrypto or Dune (See: more resources) at the end of this article.</p>
+<p>My research questions are:</p>
+<ol>
+<li>
+<strong>Reach</strong>: a) Compare the number of active addresses STEPN vs Step app; b) Compare the number of transactions STEPN vs Step app c) Check the whale wallets in both STEPN and Step app.</li>
+<li>
+<strong>Retention: </strong>a) Compare the average users active day by day in months STEPN vs Step app; b) Plot the chart of DAU, WAU, and MAU of STEPN vs Step app; c) Compare the active vs new users of STEPN vs Step app</li>
+<li>
+<strong>Revenue: </strong>a) show the performance of coin price GMT+GST vs FITFI+KCAL; b) Platform fees STEPN vs Step app; c) NFTs sold STEPN vs Step app (the data seems not available on Covalent yet)</li>
+</ol>
+<p>Here is some finding that we can discuss, while in this article, I am not explaining every plot that I generated based on my research questions. All plots are available on my covalent analytics dashboard and it can be accessed through these links:</p>
+<ol>
+<li><a href="https://www.covalenthq.com/platform/#/increment/pages/diteliti/stepn-reach-retention-revenue/" rel="external nofollow noopener" target="_blank">STEPN Reach Retention and Revenue (BSC+ETH)</a></li>
+<li><a href="https://www.covalenthq.com/platform/#/increment/pages/diteliti/step-app-reach-retention-revenue/" rel="external nofollow noopener" target="_blank">Step app Reach Retention and Revenue (AVAX)</a></li>
+</ol>
+<p>My Twitter thread is here</p>
+<h3>0xGembus on Twitter: "STEPN on $BSC and $ETHA thread This thread shows the 3 most important metrics in business: 3R (Reach, Retention, Revenue). I learned these 3 metrics from @Covalent_HQ and these results are generated from increment (Covalent data analytic tool) #STEPN #BSC #ETH @Stepnofficial / Twitter"</h3>
+<p>STEPN on $BSC and $ETHA thread This thread shows the 3 most important metrics in business: 3R (Reach, Retention, Revenue). I learned these 3 metrics from @Covalent_HQ and these results are generated from increment (Covalent data analytic tool) #STEPN #BSC #ETH @Stepnofficial</p>
+<p><strong>Total active addresses and transactions STEPN vs STEP app</strong></p>
+<figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*UIKwKu-2_vRv7hdWPKBuew.png"><figcaption>Total active addresses and transaction counts STEPN</figcaption></figure>
+<figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*1lTKZhWt9yQFunsVP7oyog.png"><figcaption>Total active addresses and transaction counts Step app</figcaption></figure>
+<p>If we compare the number of active addresses and transactions STEPN vs Step from the launch, STEPN has 212,336 GMT active addresses and 157,659 GST active addresses. Meanwhile, the Step app has 109,910 active addresses. In terms of the total number of transactions, STEPN has 2,861,074 GST transactions and 1,121,125 GMT transactions. Meanwhile, Step app has 401,665 FITFI transactions. Note that those numbers are only based on BSC network for STEPN and AVAX network for Step app. Why does STEPN have more GMT active addresses but the total number of transactions of GST is higher than GMT? GST is easy to get since we are in level 1, while GMT only can be earned after the level 30 NFT game. GST is the native game token of STEPN, while GMT is native for governance.</p>
+<p><strong>DAU, WAU, MAU STEPN vs Step app</strong></p>
+<figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*Yag064Pm51y84RIav0g-Pg.png"><figcaption>The last quarter of DAU WAU MAU STEPN</figcaption></figure>
+<figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*juFtFu53AUMoXShLStJ4YA.png"><figcaption>The last quarter of daily active addresses STEPN GMT token, BSC vs ETH</figcaption></figure>
+<figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*k2bsbXs5R11OqgOqcAnYMg.png"><figcaption>active users since the beginning of this year[GMT token], STEPN on BSC vs ETH</figcaption></figure>
+<figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*GU29fbP8W7HDHNlyJh__sw.png"><figcaption>Existing users vs New users STEPN <strong>GMT on BSC ONLY</strong></figcaption></figure>
+<figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*6HL-umZtogqLqqSphpnkaw.png"><figcaption>Month over Month growth of STEPN users on BSC</figcaption></figure>
+<figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*M4D-p_W2laKSoQRapzszsQ.png"><figcaption>STEPN BSC cohort retention</figcaption></figure>
+<figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*mipentcaUmpQaxxJ1cY4Ww.png"><figcaption>The last quarter of DAU WAU MAU Step app</figcaption></figure>
+<figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*arNpDEGS0JNF7cdy-jrUrQ.png"><figcaption>The last quarter of daily active addresses and total transaction Step app on AVAX</figcaption></figure>
+<figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*iB0a1dKLPAFO_pTt4U7U9A.png"><figcaption>Existing users and New users Step app on AVAX</figcaption></figure>
+<figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*0kHVYZgYScVl_2bBN6QQIw.png"><figcaption>Month over Month Growth of Stepp app users</figcaption></figure>
+<figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*S7_6rZRd3xeu-aDeQj4Ewg.png"><figcaption>Step app AVAX cohort retention</figcaption></figure>
+<p>Some insights from the figures above are:</p>
+<ol>
+<li>Bear market is real, both STEPN and Step app have a peak in the number of users and transactions in the middle of this year after their launch and went down following the crypto bear market.</li>
+<li>STEPN on ETH launched on 17 July 2022, and so far the number of STEPN users and transactions on ETH is not quite significant compared to STEPN on BSC network. In this research, I mostly focus on BSC instead of ETH for STEPN.</li>
+<li>Existing vs New Users are important retention metrics, if we compare STEPN vs Step app, STEPN is the winner. Step app had a really high number of new users around May 10 2022 (which I am not quite sure if it is an organic user), we can just have a look at the average of existing users on the Step app.</li>
+</ol>
+<p><strong>Revenue STEPN vs Step app</strong></p>
+<p>Regarding STEPN Revenue, there are many ways for STEPN to make money, here are some of them based on my experience using the app.</p>
+<ol>
+<li>Selling NFTs (sneakers, gems, others), the NFTs are available on <a href="https://m.stepn.com/" rel="external nofollow noopener" target="_blank">its marketplace</a>, <a href="https://www.magiceden.io/marketplace/stepn" rel="external nofollow noopener" target="_blank">Magic Eden</a> (Solana NFT marketplace), <a href="https://opensea.io/collection/stepn" rel="external nofollow noopener" target="_blank">Opensea</a>. Everyone who wants to join this game must purchase STEPN sneakers.</li>
+<li>Platform fees, STEPN has two types of wallets (1. chain wallet (solana, bsc, or eth, this is the general wallet); 2. spending wallet (all tokens received from playing the game will go to this wallet). There is a transaction fee to do a transfer between those two wallets. In addition, upgrading the NFT level, opening the loot box, etc also need fees. Here are two important STEPN BSC wallets: 1) Fee pool wallet: 0xb7D0749a64345552Ef01fF54D6864202215A09a1 2) STEPN Hotwallet at BSC 0x6238872a0bd9f0e19073695532a7ed77ce93c69e. From those two wallets, we might understand how much STEPN makes money.</li>
+<li>STEPN launch its own DEX on 17th August 2022 called <a href="https://beta.dooar.com/swap/solana" rel="external nofollow noopener" target="_blank">dooar.com</a>. Similar to other DEXs, STEPN can make money from its DEX (trade fee).</li>
+</ol>
+<p>It seems the data that I need to answer these revenue questions have not been decoded yet on Covalent, especially for NFT’s transaction on Magic Eden. Here are the collections of Dune queries related to the STEPN revenue metrics on Solana. Please have a look <a href="https://dune.com/0xgembus/stepn-revenue" rel="external nofollow noopener" target="_blank">at this link</a>.</p>
+<p>In this article, I going to share my results based on data on BSC and Ethereum. Here are what I found.</p>
+<figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*1z7w4bJS-ogVcbEY_QKJNg.png"><figcaption>Opensea eats the overall STEPN NFT volume, it’s around 93% with 5M USD in total</figcaption></figure>
+<figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*9wwud7lnKjmdvK5iiwXbPg.png"><figcaption>Daily STEPN BNB profit fee</figcaption></figure>
+<figure><img alt="" src="https://cdn-images-1.medium.com/max/918/1*7RipmzmKymXy33nmEAp-cQ.png"><figcaption>193,120 BNB in profit since launching</figcaption></figure>
+<figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*QvSgkrPDMk1b-cj08Ic5dA.png"><figcaption>Daily STEPN ETH profit fee</figcaption></figure>
+<figure><img alt="" src="https://cdn-images-1.medium.com/max/882/1*Bf21T6WSOf4Hrsmb3ZciSA.png"><figcaption>2004 ETH in profit since launch</figcaption></figure>
+<blockquote>As mentioned in STEPN documentation that “The Platform Fee and Royalty Fee are reserved to the team to sustain its operation, no less than 5% of the Team’s profit will be sent to the Ecosystem fund. Following are the Team’s Profit on BNBChain, which will be taken on daily basis:</blockquote>
+<blockquote>Fee on BNBChain: <em>0xb7D0749a64345552Ef01fF54D6864202215A09a1"</em>
+</blockquote>
+<figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*9qRt-KDLIXj_uB0fwyLqXg.png"><figcaption>STEPN Shoe minted on BSC</figcaption></figure>
+<figure><img alt="" src="https://cdn-images-1.medium.com/max/860/1*Px7cqfpsxFHAhBSkk5OwBw.png"><figcaption>STEPN shoe minted since launching on BSC</figcaption></figure>
+<figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*fJnaktU2D3Jdr9DjWZqJJA.png"><figcaption>Users group based on ETH amount deposited to STEPN ETH, most of the user's deposit &lt;0.5 ETH</figcaption></figure>
+<figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*SwoMeqIfEBAo6Sf0v4xOTA.png"><figcaption>Users group based on BNB amount deposited to STEPN BSC, most of the users deposit &lt; 1BNB</figcaption></figure>
+<p>For the new STEPN DEX called dooar.com, I have not used it yet since it’s still beta. It supports Solana network, <a href="https://dune.com/browse/dashboards?q=dooar" rel="external nofollow noopener" target="_blank">there are some analyses on Dune</a>. I am not sure if today it’s already supported for BSC network.</p>
+<p>For Step app revenue, it can be seen through the Step app covalent increment link as I posted above. Here are some results from Step app, the number of stakers, unstakers, and the amount of stFITFI.</p>
+<p>It is quite hard to find revenue metrics on Step app since I could not find the contract for Step app NFT and there is also no contract address for Step network. Hopefully, they will provide that information in the Step app documentation soon. <a href="https://twitter.com/0xGembus/status/1590852070240051200" rel="external nofollow noopener" target="_blank">I asked them but have not gotten any response yet</a>.</p>
+<figure><img alt="" src="https://cdn-images-1.medium.com/max/936/1*4HtKMP7ZPN1g7w6NpDuNQQ.png"><figcaption>the number of staked and unstaked the amount of stFITFI</figcaption></figure>
+<p>Thank you, please do not put your trust 100% in this analysis results, verify instead! I might be wrong in some parts and if you see that I am wrong please let me know. If you have any feedback, please just write in the comment.</p>
+<p><strong>More Resources:<br></strong>Here are some useful dashboards about Move2Earn from different blockchain analytics platforms:</p>
+<ol>
+<li>
+<a href="https://dune.com/lightsoutjames/STEPN-Dashboard" rel="external nofollow noopener" target="_blank"><strong>StepN Shoe Analytics and Dashboard</strong></a> (Solana and BSC)</li>
+<li>
+<a href="https://dune.com/nguyentoan/STEPN-(GMT-GST)-Core-Metrics" rel="external nofollow noopener" target="_blank"><strong>StepN GMT, GST, NFT Metrics</strong></a> (Solana and BSC)</li>
+<li><a href="https://app.flipsidecrypto.com/dashboard/tracking-gmt-into-step-n-l-wrwj" rel="external nofollow noopener" target="_blank"><strong>Tracking GMT on Solana</strong></a></li>
+<li>
+<a href="https://app.flipsidecrypto.com/dashboard/E6waF4" rel="external nofollow noopener" target="_blank"><strong>Moving to Earn in the Bear Market</strong></a> (StepN vs Genopets on Solana)</li>
+<li><a href="https://app.flipsidecrypto.com/dashboard/sweatcoin-dashboard-aHXr5x" rel="external nofollow noopener" target="_blank"><strong>Sweatcoin Dashboard (Move2Earn on Near)</strong></a></li>
+</ol>
+<p><strong>STEPN</strong> <a href="https://www.stepn.com/" rel="external nofollow noopener" target="_blank">https://www.stepn.com/</a></p>
+<p>GMT token</p>
+<ol><li>BSC 0x3019BF2a2eF8040C242C9a4c5c4BD4C81678b2A1</li></ol>
+<p>2. Solana 7i5KKsX2weiTkry7jA4ZwSuXGhs5eJBEjY8vVxR4pfRx</p>
+<p>3. Ethereum 0xe3c408bd53c31c085a1746af401a4042954ff740</p>
+<p>GST token</p>
+<ol>
+<li>BSC 0x4a2c860cEC6471b9F5F5a336eB4F38bb21683c98</li>
+<li>Solana AFbX8oGjGpmVFywbVouvhQSRmiW2aR1mohfahi4Y2AdB</li>
+<li>Ethereum 0x473037de59cf9484632f4a27b509cfe8d4a31404</li>
+</ol>
+<p>STEPN platform fee</p>
+<ol>
+<li>Fee on BNBChain: 0xb7D0749a64345552Ef01fF54D6864202215A09a1</li>
+<li>Fee on Ethereum: 0xb7D0749a64345552Ef01fF54D6864202215A09a1</li>
+<li>STEPN Hotwallet at BSC 0x6238872a0bd9f0e19073695532a7ed77ce93c69e</li>
+</ol>
+<p>Trade Fee holding address from DOOAR</p>
+<p>ERC-20: 0x08b60476688D222473eaf360Da63d9627e73054C</p>
+<p>STEPN NFT</p>
+<ol>
+<li>BSC 0x69D60ad11fEB699fE5fEEeB16AC691dF090bfd50</li>
+<li>Solana</li>
+<li>ETH 0x2A036569DBbe7730D69ed664B74412E49f43C2C0</li>
+</ol>
+<p>The contract address of DOOAR is:</p>
+<p>Solana: Dooar9JkhdZ7J3LHN3A7YCuoGRUggXhQaG4kijfLGU2j</p>
+<p>BNBChain: Factory: 0x1e895bFe59E3A5103e8B7dA3897d1F2391476f3c Router: 0x53e0e51b5Ed9202110D7Ecd637A4581db8b9879F</p>
+<p>Ethereum: Factory: 0x1e895bFe59E3A5103e8B7dA3897d1F2391476f3c Router: 0x53e0e51b5Ed9202110D7Ecd637A4581db8b9879F</p>
+<p>Dooar is officially released on 17th August 2022, the DEX address is <a href="http://dooar.com" rel="external nofollow noopener" target="_blank">dooar.com</a></p>
+<p>STEPN marketplace <a href="https://m.stepn.com/" rel="external nofollow noopener" target="_blank">https://m.stepn.com/</a></p>
+<p>Multi-chains StepN DEX <a href="https://beta.dooar.com/swap/solana" rel="external nofollow noopener" target="_blank">https://beta.dooar.com/swap/solana</a></p>
+<p><strong>Step App </strong><a href="https://step.app/" rel="external nofollow noopener" target="_blank">https://step.app/</a></p>
+<ol>
+<li>FITFI (Governance token) 0x714f020c54cc9d104b6f4f6998c63ce2a31d1888</li>
+<li>KCAL (Game token) <a href="https://stepscan.io/address/0x68b2DFC494362AAE300F2C401019205d8960226b" rel="external nofollow noopener" target="_blank">https://stepscan.io/address/0x68b2DFC494362AAE300F2C401019205d8960226b</a>
+</li>
+</ol>
+<p>More info:</p>
+<ol>
+<li>Step app DEX (Using Step Network) <a href="https://info.step.exchange/#/home" rel="external nofollow noopener" target="_blank">https://info.step.exchange/#/home</a>
+</li>
+<li>StepNetwork explorer <a href="https://stepscan.io/" rel="external nofollow noopener" target="_blank">https://stepscan.io/</a>
+</li>
+</ol>
+<p><img src="https://medium.com/_/stat?event=post.clientViewed&amp;referrerSource=full_rss&amp;postId=8bcc3f23501b" width="1" height="1" alt=""></p>
+</body></html>

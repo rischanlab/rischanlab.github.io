@@ -1,110 +1,342 @@
 {
   "basics": {
     "name": "Rischan Mafrur",
-    "label": "DeFi Researcher",
-    "image": "",
-    "email": "r.mafrur@uq.net.au",
-    "phone": "-",
-    "url": "rischanlab.github.io",
-    "summary": "DeFi Researcher",
+    "label": "Lecturer (Data Science) | Financial Data Engineer | Data Scientist",
+    "email": "R.Mafrur@westernsydney.edu.au",
+    "phone": "",
+    "url": "https://rischanlab.github.io/",
+    "summary": "Dr. Rischan Mafrur is a lecturer at Western Sydney University Indonesia (WSUI), Surabaya, where he teaches Data Science and Big Data Applications. He earned his PhD in Data Science from The University of Queensland, Australia. He is a data professional with over 10 years of experience, specialising in Python, SQL, and data warehousing. His research and applied work sit at the intersection of financial data engineering, AI systems, and digital asset analytics, supported by active collaborations across Australia and Southeast Asia.",
     "location": {
-      "address": "GP South 78",
-      "postalCode": "4067",
-      "city": "St Lucia",
-      "countryCode": "Australia",
-      "region": "Queensland"
+      "city": "Surabaya",
+      "region": "East Java",
+      "countryCode": "ID"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "0xGembus",
-        "url": "https://twitter.com/0xGembus"
+        "network": "LinkedIn",
+        "username": "rischan",
+        "url": "https://www.linkedin.com/in/rischan"
+      },
+      {
+        "network": "GitHub",
+        "username": "rischanlab",
+        "url": "https://github.com/rischanlab"
+      },
+      {
+        "network": "Kaggle",
+        "username": "rischan",
+        "url": "https://www.kaggle.com/rischan"
       }
     ]
   },
+  "education": [
+    {
+      "institution": "The University of Queensland",
+      "url": "https://espace.library.uq.edu.au/view/UQ:812c680",
+      "area": "Data Science",
+      "studyType": "Doctor of Philosophy (PhD)",
+      "startDate": "2018-01",
+      "endDate": "2023-11",
+      "score": "",
+      "courses": [],
+      "highlights": [
+        "PhD thesis: Recommending Data Visualizations"
+      ]
+    },
+    {
+      "institution": "Chonnam National University",
+      "area": "Internet of Things",
+      "studyType": "Master of Engineering",
+      "startDate": "2013-09",
+      "endDate": "2015-08",
+      "highlights": []
+    },
+    {
+      "institution": "Sunan Kalijaga State Islamic University",
+      "area": "Informatics Engineering",
+      "studyType": "Bachelor of Computer",
+      "startDate": "2009-08",
+      "endDate": "2013-01",
+      "highlights": []
+    }
+  ],
   "work": [
     {
-      "name": "Macquarie University, Australia",
-      "position": "DeFi Researcher",
-      "url": "https://www.mq.edu.au/macquarie-business-school/our-departments/department-of-applied-finance",
-      "startDate": "2023",
-      "endDate": "-",
-      "summary": "Working with a bunch of data",
+      "name": "Western Sydney University Indonesia (WSUI)",
+      "location": "Surabaya, Indonesia",
+      "position": "Lecturer",
+      "startDate": "2026-01",
+      "endDate": "",
+      "summary": "Teaching Data Science and Big Data Applications.",
       "highlights": [
-        "Data Warehousing"
+        "COMP2025 Introduction to Data Science",
+        "COMP3002 Applications of Big Data",
+        "COMP2019 Systems Programming 1"
+      ]
+    },
+    {
+      "name": "UNSW Sydney (Mentem)",
+      "location": "Sydney, Australia",
+      "position": "Instructor, Advanced Data Analytics Upskilling",
+      "startDate": "2025-01",
+      "endDate": "2025-12",
+      "summary": "Delivered sessions for an advanced data analytics upskilling program supporting professionals from Commonwealth Bank (CBA) and the NSW Government.",
+      "highlights": []
+    },
+    {
+      "name": "The University of Queensland",
+      "location": "Brisbane, Australia",
+      "position": "Teaching Assistant",
+      "startDate": "2020-02",
+      "endDate": "2023-07",
+      "summary": "",
+      "highlights": [
+        "Advanced Database Systems (INFS3200)",
+        "Database Principles (INFS7901)",
+        "Relational Database Systems (INFS2200)"
+      ]
+    },
+    {
+      "name": "Sunan Kalijaga State Islamic University",
+      "location": "Yogyakarta, Indonesia",
+      "position": "Teaching Assistant",
+      "startDate": "2010-09",
+      "endDate": "2013-04",
+      "summary": "",
+      "highlights": [
+        "Algorithms and Data Structures (C) (2010)",
+        "Operating Systems (Linux Bash Scripting) (2010, 2012)",
+        "Visual Programming (Borland Delphi) (2011)",
+        "Database Systems (MySQL and Oracle) (2011)",
+        "Structured Programming (C, Procedural) (2011, 2012)",
+        "Object-Oriented Programming (Java) (2012)",
+        "Web Programming (PHP) (2012)",
+        "Information Systems (2012/2013)",
+        "Mobile Computing (Android) (2012/2013)"
+      ]
+    },
+    {
+      "name": "Macquarie University, Department of Applied Finance",
+      "location": "Sydney, Australia",
+      "position": "Financial Data Engineer and Researcher",
+      "startDate": "2024-12",
+      "endDate": "2025-12",
+      "summary": "",
+      "highlights": [
+        "End-of-Day ASX Data Service: Designed automated pipelines to clean, enrich, and merge multi-source data for end-of-day reporting and time-series forecasting.",
+        "Ethereum mempool data analysis: Analysed and reported Ethereum mempool data for blockchain transaction insights.",
+        "Centralised exchange (CEX) crypto data analysis: Analysed and reported data from centralised exchanges to assess data quality."
+      ]
+    },
+    {
+      "name": "SIRCA Ltd",
+      "location": "Sydney, Australia",
+      "position": "Financial Data Engineer",
+      "startDate": "2023-02",
+      "endDate": "2024-12",
+      "summary": "",
+      "highlights": [
+        "Crypto data warehouse: Built a crypto data warehouse and ingested DeFi data for research data collection.",
+        "Product definition project: Defined available data collections hosted on AWS and on-premises infrastructure for the crypto data warehouse."
+      ]
+    },
+    {
+      "name": "Ministry of Education and Culture (MoEC), Indonesia",
+      "location": "Indonesia",
+      "position": "Data Consultant",
+      "startDate": "2021-07",
+      "endDate": "2022-07",
+      "summary": "",
+      "highlights": [
+        "belajar.id: Delivered analysis and recommendations to improve activation and adoption of a national account program serving millions of students and teachers."
+      ]
+    },
+    {
+      "name": "Visua.id (Acquired)",
+      "location": "Jakarta, Indonesia",
+      "position": "Founder, SME Analytics Solutions",
+      "startDate": "2020-01",
+      "endDate": "2021-12",
+      "summary": "",
+      "highlights": [
+        "Business intelligence delivery: Built plug-and-play dashboards across Shopee, Tokopedia, and Facebook Ads.",
+        "Template design: Enabled scalable self-service reporting through repeatable frameworks."
       ]
     },
     {
       "name": "Kartoza Pty Ltd",
-      "position": "Software engineer",
-      "url": "https://www.kartoza.com/",
-      "startDate": "2015",
-      "endDate": "2017",
-      "summary": "Working with back-end",
+      "location": "Western Cape, South Africa",
+      "position": "Backend and Database Engineer",
+      "startDate": "2015-09",
+      "endDate": "2017-02",
+      "summary": "",
       "highlights": [
-        "Python back-end"
+        "Projecta: Open-source visual changelogs for software releases and software project management.",
+        "AgriTechnovation: Farm mapping and management platform for agricultural land in South Africa.",
+        "SANSA Catalogue: Online Earth observation catalogue for the South African National Space Agency."
       ]
     }
   ],
-  "volunteer": [],
-  "education": [
+  "skills": [
     {
-      "institution": "The University of Queensland, Australia",
-      "url": "https://www.uq.edu.au/",
-      "area": "Data Science",
-      "studyType": "PhD",
-      "startDate": "2018",
-      "endDate": "-",
-      "score": "",
-      "courses": [
-        "Efficient Insight Recommendation for Visual Data Exploration"
+      "name": "Programming Languages",
+      "keywords": [
+        "Python (Pandas)",
+        "SQL",
+        "R"
       ]
     },
     {
-      "institution": "Chonnam National University, South Korea",
-      "url": "https://international.jnu.ac.kr/IndexMain.aspx",
-      "area": "IoT",
-      "studyType": "Master of Engineering",
-      "startDate": "2013",
-      "endDate": "2015",
-      "score": "",
-      "courses": [
-        "Modeling and discovering human behavior from smartphone sensing life-log data for identification purpose"
+      "name": "Databases",
+      "keywords": [
+        "PostgreSQL",
+        "MySQL",
+        "Oracle"
       ]
-    }
-    ,
+    },
     {
-      "institution": "UIN Sunan Kalijaga Yogyakarta, Indonesia",
-      "url": "https://uin-suka.ac.id/",
-      "area": "Information Technology",
-      "studyType": "Bachelor",
-      "startDate": "2009",
-      "endDate": "2013",
-      "score": "",
-      "courses": [
-    
+      "name": "Operating Systems",
+      "keywords": [
+        "Unix/Linux",
+        "macOS",
+        "Windows"
+      ]
+    },
+    {
+      "name": "Cloud",
+      "keywords": [
+        "AWS",
+        "GCP"
+      ]
+    },
+    {
+      "name": "Tools",
+      "keywords": [
+        "Jupyter Notebook",
+        "Docker",
+        "Git"
+      ]
+    },
+    {
+      "name": "Blockchain",
+      "keywords": [
+        "Ethereum",
+        "Solana"
+      ]
+    },
+    {
+      "name": "Visualisation",
+      "keywords": [
+        "Matplotlib",
+        "Seaborn",
+        "Plotly"
+      ]
+    },
+    {
+      "name": "ML Tools",
+      "keywords": [
+        "scikit-learn",
+        "SciPy"
       ]
     }
   ],
-  "awards": [],
-  "certificates": [],
-  "publications": [],
-  "skills": [],
   "languages": [
     {
-      "language": "Javanese",
-      "fluency": "Native speaker"
+      "language": "English"
     },
     {
-      "language": "Indonesia",
-      "fluency": "Fluent"
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent"
+      "language": "Indonesia"
     }
   ],
-  "interests": [],
-  "references": [],
-  "projects": []
+  "publications": [
+    {
+      "name": "Tokenize everything, but can you sell it? RWA liquidity challenges and the road ahead",
+      "publisher": "CoRR (preprint)",
+      "releaseDate": "2025",
+      "url": "https://arxiv.org/abs/2508.11651",
+      "summary": "abs/2508.11651"
+    },
+    {
+      "name": "From Gold Dinar to Digital Ledger: Is Islam Ready for Cryptocurrency?",
+      "publisher": "SSRN (preprint)",
+      "releaseDate": "2025",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5385786",
+      "summary": ""
+    },
+    {
+      "name": "AI-Based Crypto Tokens: The Illusion of Decentralized AI?",
+      "publisher": "IET Blockchain",
+      "releaseDate": "2025",
+      "url": "https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/blc2.70015",
+      "summary": "Vol. 5, No. 1, Art. e70015"
+    },
+    {
+      "name": "Blockchain Data Analytics: Review and Challenges",
+      "publisher": "CoRR (preprint)",
+      "releaseDate": "2025",
+      "url": "https://doi.org/10.48550/arXiv.2503.09165",
+      "summary": "arXiv:2503.09165"
+    },
+    {
+      "name": "VizPut: Insight-Aware Imputation of Incomplete Data for Visualization Recommendation",
+      "publisher": "CoRR (preprint)",
+      "releaseDate": "2023",
+      "url": "https://doi.org/10.48550/arXiv.2311.07926",
+      "summary": "arXiv:2311.07926"
+    },
+    {
+      "name": "Recommending Data Visualizations: Tackling Diversification and Data Quality Challenges",
+      "publisher": "PhD Thesis, School of Electrical Engineering and Computer Science, The University of Queensland",
+      "releaseDate": "2023",
+      "url": "https://doi.org/10.14264/812c680",
+      "summary": ""
+    },
+    {
+      "name": "Efficient Diversification for Recommending Aggregate Data Visualizations",
+      "publisher": "IEEE Access",
+      "releaseDate": "2023",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10144772",
+      "summary": ""
+    },
+    {
+      "name": "Quality Matters: Understanding the Impact of Incomplete Data on Visualization Recommendation",
+      "publisher": "DEXA 2020",
+      "releaseDate": "2020",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-59003-1_8",
+      "summary": "Bratislava, Slovakia"
+    },
+    {
+      "name": "DiVE: Diversifying View Recommendation for Visual Data Exploration",
+      "publisher": "CIKM 2018",
+      "releaseDate": "2018",
+      "url": "https://dl.acm.org/citation.cfm?id=3271744",
+      "summary": "Torino, Italy"
+    },
+    {
+      "name": "Modeling and discovering human behavior from smartphone sensing life-log data for identification purpose",
+      "publisher": "International Journal of Human-centric Computing and Information Sciences",
+      "releaseDate": "2015",
+      "url": "http://hcis-journal.springeropen.com/articles/10.1186/s13673-015-0049-7",
+      "summary": ""
+    }
+  ],
+  "projects": [
+    {
+      "name": "Crypto Data Warehouse",
+      "description": "Built a crypto data warehouse and ingested DeFi data for research data collection."
+    },
+    {
+      "name": "End-of-Day ASX Data Service",
+      "description": "Designed automated pipelines to clean, enrich, and merge multi-source data for end-of-day reporting and time-series forecasting."
+    }
+  ],
+  "interests": [
+    {
+      "name": "Other Interests",
+      "keywords": [ "Hiking",
+        "Mount Climbing",
+        "Swimming"
+      ]
+    }
+  ]
 }

@@ -1,2 +1,90 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
-
+<html><body>
+<figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*ysRYuxtdvstbMM5cAAAyYQ.png"><figcaption>Apecoin [img src: bnbstatic com]</figcaption></figure>
+<p>This article is part of my project for the Covalent Data Alchemist program. In this piece, I will conduct a comparative analysis between two liquidity pools: the APE/WETH pool on Uniswap V2 and the APE/WETH pool on Sushiswap.</p>
+<p>Why focus on APE/WETH? APE refers to ApeCoin, an Ethereum-based token governed by ApeCoin DAO, with all APE holders qualifying as members of the ApeCoin DAO. It is associated with a non-fungible token (NFT) project known as the Bored Ape Yacht Club (BAYC), a successful and valuable collection launched by the Web3 company, Yuga Labs. On March 18, 2022, ApeCoin (APE) was introduced and airdropped to all investors of BAYC and related NFT collections, such as the Mutant Ape Yacht Club and the Bored Ape Kennel Club. In October 2022, the Securities and Exchange Commission (SEC) announced that it would be investigating Yuga Labs due to concerns that both the BAYC NFTs and ApeCoin might constitute unregistered securities. Following this announcement, ApeCoin’s value dropped by 10%. I believe that analyzing this successful project is worthwhile as it could provide useful insights, particularly on the performance of APE/ETH trades.</p>
+<p>Why choose these two decentralized exchanges (DEXs)? Uniswap is currently the most popular DEX in the world. Meanwhile, SushiSwap has risen to be one of Uniswap’s primary competitors. Interestingly, SushiSwap originated as a fork, or copy, of Uniswap, albeit with a few modifications.</p>
+<figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*OwpQmH-VZyDEN46zGdgO5g.png"><figcaption>Top APE/WETH pools by Volume [source: <a href="https://www.geckoterminal.com/" rel="external nofollow noopener" target="_blank">https://www.geckoterminal.com/</a>]</figcaption></figure>
+<p>As depicted in the figure above, the most active APE/WETH pool by volume is on Uniswap, specifically Uniswap V3. However, for the purpose of this article, the results are based solely on Uniswap V2 compared to Sushiswap, due to certain limitations. The results derived from the complete Uniswap data (combining V2 and V3) will be shared in the coming weeks.</p>
+<p><strong>Limitation</strong>: This article is part of the Covalent Data Alchemist task. Currently, Covalent’s DEX views cover all DEX trades across more than 40 chain networks. However, only V1 and V2 data are presently available for Uniswap, while V3 data will be made available in the forthcoming weeks.</p>
+<p>Now, let’s get started! In this article, we will explore certain research questions related to the performance of the APE/WETH pair on Uniswap V2 compared to Sushiswap, in accordance with the 3R metrics (reach, retention, revenue):</p>
+<p><strong>Reach</strong></p>
+<ol>
+<li>Compare the number of traders on APE/WETH pair over bothDEXs.</li>
+<li>Compare the number of new traders on APE/WETH pair over both DEXs.</li>
+<li>Compare the number of trades on APE/WETH pair over both DEXs.</li>
+</ol>
+<p><strong>Retention</strong></p>
+<ol>
+<li>Mint-to-burn ratio (the volume of added liquidity divided by the volume of removed liquidity) vs the price of the coin. Does price affect the mint-to-burn ratio? Compare the mint-to-burn ratio APE/WETH pair over both DEXs.</li>
+<li>Compare Month over Month (MoM) trader retention on APE/WETH pair over both DEXs.</li>
+<li>Compare trader stickiness ratio on APE/WETH pair over both DEXs.</li>
+</ol>
+<p><strong>Revenue</strong></p>
+<ol>
+<li>Compare the total value locked (TVL) of APE/WETH pair over both DEXs.</li>
+<li>Compare APE/WETH pair pool volume over both DEXs.</li>
+<li>Compare the median LP over time of APE/WETH pair over both DEXs.</li>
+<li>Compare the liquidity utilization over the last 24 hours of APE/WETH pair over both DEXs.</li>
+<li>Compare the traders' types based on the amount trades of APE/WETH pair over both DEXs.</li>
+</ol>
+<p>Let’s deep dive together!</p>
+<p><strong>The number of traders and trades of APE/WETH pair over both DEXs (Uniswap v2 and Sushiswap)</strong></p>
+<figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*EtQBbQMQ7693QzeshkLktA.png"><figcaption>The number of traders and trades on APE/WETH pair Uni V2 vs Sushiswap</figcaption></figure>
+<figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*3hQomrAEp1eCCVnPvA0bBA.png"><figcaption>Trade Inflows &amp; Outflows APE/WETH this month on Uni V2 vs Sushiswap</figcaption></figure>
+<figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*Ck0G-rNcaqEITrlBiN16Cw.png"><figcaption>Active vs New trader on APE/WETH pair Uni V2 vs Sushiswap</figcaption></figure>
+<p><strong>Key takeaways:</strong></p>
+<ol>
+<li>Comparing two APE/WETH pools (Uni V2 vs Sushiswap) in terms of the number of traders and trades, Uni V2 has more traders and trades rather than Sushiswap.</li>
+<li>In terms of the number of new vs existing traders (users), Uni V2 outperforms Sushiswap.</li>
+</ol>
+<p><strong>MoM, trader stickiness, and Mint-to-burn ratio</strong></p>
+<figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*9HlDqok232b0Vp-nC1Ydbw.png"><figcaption>APE/WETH cohort retention on Uniswap V2</figcaption></figure>
+<figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*p0bLwYGTvZeSD9YwbpBvCA.png"><figcaption>APE/WETH cohort retention on Sushiswap</figcaption></figure>
+<p>Running DEX such as Uniswap or Sushiswap is like running a business. The true success of a business is not in enabling a single transactional sale, but in building a customer relationship that spans for as long as possible. That makes customer retention a high-priority goal for any business. Why retention is so important? New customer acquisition is five times more costly when compared to the cost of retaining existing customers. Month over Month retention rate is the percentage of customers that are retained from month to month and it’s the opposite of your churn rate. In the case DEXs, the customers are traders and liquidity providers. The two cohort retention figures above show the user retention month over month on APE/WETH pair over Uniswap v2 and Sushiswap.</p>
+<figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*XUz6qL4PELCenuqgsdkOOw.png"><figcaption>APE/WETH DAU WAU MAU on Uniswap V2 vs Sushiswap</figcaption></figure>
+<figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*nVldgHJB9u8B3bn5N2EpOA.png"><figcaption>Mint-to-burn ratio for LPs vs. market volatility (Apecoin price in USD)</figcaption></figure>
+<p>What is Mint-to-burn ratio and how to calculate it?</p>
+<p>Automated market makers (AMMs) are part of decentralized finance (DeFi). By using AMM, digital assets can be traded permissionless and automatically by using liquidity pools rather than a traditional market of buyers and sellers. AMM users can supply liquidity pools with their tokens, whose <a href="https://coin98.net/what-is-amm" rel="external nofollow noopener" target="_blank">prices are determined by mathematical formula</a>. When users add liquidity to a pool, then LP tokens are minted and when users remove liquidity from a pool LP tokens are burned. Therefore, <em>the mint-to-burn ratio is the ratio of tokens going into the pool and tokens leaving the pool</em>. It can be calculated by the amount added to the pool divided by the amount removed from the pool. When more tokens are added to pool, then the mint-to-burn ratio will be higher. On the other side, when more tokens leave the pool, the mint-to-burn ratio will be lower.</p>
+<figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*lgiMZjYBfA4AwwZLQoSnvQ.png"><figcaption>The stickiness ratio of APE/WETH pool on Uniswap V2 vs Sushiswap</figcaption></figure>
+<p>What is traders' stickiness ratio and how to calculate it?</p>
+<p>Stickiness ratio is the rate at which the users return to the product on a regular basis. Stickiness is equal to the ratio of daily active users (DAUs) to monthly active users (MAUs). Businesses or products with low customer stickiness soon run out of new customers and reduce the success rate. So, in the context of APE/WETH liquidity pool, <em>the stickiness ratio is calculated by the average number of daily active traders divided by the total active traders in a month.</em></p>
+<p><strong>Key takeaways:</strong></p>
+<ol>
+<li>Uniswap V2 has better Month over Month performance of APE/WETH pair compared to Sushiswap based on both the cohort retention chart and DAU WAU MAU chart.</li>
+<li>Mint-to-burn ratio chart shows that market volatility affects the mint-to-burn ratio. Moreover, the highest mint-to-burn ratio both on Uni V2 and Sushiswap happened on 17 March 2022 (when the Apecoin launched) and May 2022 when the Apecoin price was at its peak. Afterward, the mint-to-burn ratio decreased following the Apecoin price decrease due to the bear market.</li>
+<li>In terms of trader stickiness ratio, overall, Uni V2 has a slightly better stickiness ratio compared to Sushiswap.</li>
+</ol>
+<p><strong>TVL, Swap Volume, LPs, Liquidity utilization, and trader groups based on the amount token they trade.</strong></p>
+<figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*-1rqZPV04yXwYIwGm3l7PQ.png"><figcaption>TVL in USD of APE/WETH pool on Uniswap V2 vs Sushiswap since launching</figcaption></figure>
+<p>Other than marketcap, trading volume, and total and circulating supply, total value locked (TVL) is one crypto indicator that is popular in the crypto industry. Then what is TVL and how to calculate TVL? TVL is the overall value of assets (in USD) deposited across all DeFi protocols or in a single DeFi project. In the context of this work, TVL is the overall value assets on APE/WETH pool that can be calculated by <em>the sum amount of deposit (add liquidity) minus the withdrawal (remove liquidity) + sum of swap volume, where the value is in USD.</em></p>
+<figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*QjPkZCT1A29ro7GtIAClRg.png"><figcaption>Swap Volume of APE/WETH on Uniswap V2 vs Sushiswap</figcaption></figure>
+<figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*gsEpRe6dMW6ZGw89qvFZCQ.png"><figcaption>Swap Volume of APE/WETH on Uniswap V2 vs Sushiswap in the last 30 days</figcaption></figure>
+<p>The swap volume is calculated by the sum of the USD amount of APE token or WETH token traded on APE/WETH pool.</p>
+<figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*wPAh_xjrj5lkN6prw4UQHw.png"><figcaption>Liquidity Utilization APE/WETH in the last 24 hours [Uniswap V2 vs Sushiswap]</figcaption></figure>
+<p>The goal of liquidity pools is to maximize the use of liquidity with the large and high trading volume and to minimize slippage. Since crypto relies on AMM, everyone who uses DEX must deal with slippage, you <a href="https://help.coinbase.com/en/coinbase/trading-and-funding/advanced-trade/slippage" rel="external nofollow noopener" target="_blank">can read this article to understand more about slippage</a>. How to evaluate the performance of the liquidity pool? One popular metric that can be used to evaluate the efficiency of a liquidity pool is liquidity utilization. This metric is the ratio of volume traded to TVL. Efficient pools tend to have high liquidity utilization. In the context of the result above, liquidity utilization is calculated by the volume traded in the last 24 hours divided by TVL in the last 24 hours. Seven and two percent look so small for liquidity utilization. Let’s dive into a longer timeframe such as 30 days.</p>
+<figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*3Xp1QQdkCiMTjj5MFwZyGg.png"><figcaption>Liquidity Utilization APE/WETH in the last 30 days [Uniswap V2 vs Sushiswap]</figcaption></figure>
+<figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*9SSyrFRo3SRREkn_udrF6g.png"><figcaption>Heavy trader's domination on APE/WETH pools Uni V2 vs Sushiswap</figcaption></figure>
+<p><strong>Key takeaways:</strong></p>
+<ol>
+<li>APE/WETH pool on Uniswap V2 has higher TVL compared to Sushiswap. Note that the result is generated only based on Uniswap V2, APE/WETH on Uniswap V3 has much more TVL than on Uniswap V2.</li>
+<li>The figure APE/WETH swap volume in the last 30 days shows us clearly how Uniswap V2 outperforms Sushiswap.</li>
+<li>APE/WETH pool on both Uniswap V2 and Sushiswap have low liquidity utilization in the last 24 hours. APE/WETH pool on Uniswap V2 only utilizes 7% of its liquidity while Sushiswap only utilizes 2% of it’s liquidity.</li>
+<li>When looking at the bigger picture, in the last 30 days, APE/WETH pool on Uniswap V2 utilizes 1,872% of its liquidity while Sushiswap utilizes 545% of its liquidity.</li>
+<li>Both on Uniswap V2 and Sushiswap, most trade of APE/WETH is done by heavy traders. The heavy trader is a trader who made trades on decentralized exchanges and is in the top 1% in the number of trades or volume traded (but not both).</li>
+<li>If I am the owner of this Apecoin project and I have $100,000 in liquidity rewards to start liquidity mining programs to increase Ape tokens traction in DeFi, while the available option is to choose either Uniswap V2 or Sushiswap, then I prefer to choose Uniswap! My considerations are 1) Uniswap V2 has higher liquidity utilization in the last 24 hours or even in the last 30 days; 2) If we look at the last 30 days' swap volume comparison between Uni V2 and Sushi, it’s clear that APE/WETH on Uni V2 outperforms Sushiswap.</li>
+</ol>
+<p>My analytic dashboard can be accessed through this link <a href="https://www.covalenthq.com/platform/#/increment/pages/diteliti/apeweth-dex/" rel="external nofollow noopener" target="_blank">https://www.covalenthq.com/platform/#/increment/pages/diteliti/apeweth-dex/</a></p>
+<p>My Twitter Thread is here</p>
+<h3>0xGembus on Twitter: "🧵I am really excited to have been enrolled on @Covalent_HQ 's Data alchemist BootCampCheck out my second report comparing APE/WETH pool on Uni V2 vs Sushiswap generated from Increment (a powerful data analysis tool built by Covalent)@apecoin @Uniswap @SushiSwap pic.twitter.com/ruFTH6b0tP / Twitter"</h3>
+<p>🧵I am really excited to have been enrolled on @Covalent_HQ 's Data alchemist BootCampCheck out my second report comparing APE/WETH pool on Uni V2 vs Sushiswap generated from Increment (a powerful data analysis tool built by Covalent)@apecoin @Uniswap @SushiSwap pic.twitter.com/ruFTH6b0tP</p>
+<p><strong>Note</strong>: <em>recall that the results presented in this article are based on Uniswap V2 vs Sushiswap. The figure below shows the volume and trade comparison between Uniswap V2 vs Uniswap V3.</em></p>
+<p>I am very excited to wait for Covalent to provide Uniswap V3 data, I will make another post for analysis results based on Uniswap full data V2+V3.</p>
+<figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*LmDfdzOU5mg2vf25wb1vGA.png"><figcaption>Uniswap V1 V2 V3 Volume</figcaption></figure>
+<figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*p0yTSjrgYWHsxneSXr-kXA.png"><figcaption>Uniswap V1 V2 V3 Trades</figcaption></figure>
+<p>Resources:</p>
+<p>APEcoin contract address <a href="https://etherscan.io/token/0x4d224452801aced8b2f0aebe155379bb5d594381" rel="external nofollow noopener" target="_blank">0x4d224452801ACEd8B2F0aebE155379bb5D594381</a></p>
+<p>Uniswap V2 APE/WETH pair <a href="https://etherscan.io/address/0xb011eeaab8bf0c6de75510128da95498e4b7e67f" rel="external nofollow noopener" target="_blank">0xb011eeaab8bf0c6de75510128da95498e4b7e67f</a></p>
+<p>Sushiswap APE/WETH pair <a href="https://etherscan.io/token/0x130F4322e5838463ee460D5854F5D472cFC8f253" rel="external nofollow noopener" target="_blank">0x130F4322e5838463ee460D5854F5D472cFC8f253</a></p>
+<p><img src="https://medium.com/_/stat?event=post.clientViewed&amp;referrerSource=full_rss&amp;postId=dad9b27d790d" width="1" height="1" alt=""></p>
+</body></html>
